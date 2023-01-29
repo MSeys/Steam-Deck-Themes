@@ -8,7 +8,7 @@
         "shared.css": ["SP", "MainMenu", "QuickAccess"]
     },
     "patches": {
-        "Intensity": {
+        "Size": {
           "default": "70%",
           "type": "slider",
           "values": {
