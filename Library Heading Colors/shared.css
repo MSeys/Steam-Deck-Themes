@@ -11,5 +11,5 @@
 
 .appgrid_Rule_3pJqX
 {
-    background: linear-gradient(to right, var(--library-heading-recolor-rule-left), var(--library-heading-recolor-rule-right));
+    background: linear-gradient(to right, var(--library-heading-recolor-rule-left), var(--library-heading-recolor-rule-right)) !important;
 }
