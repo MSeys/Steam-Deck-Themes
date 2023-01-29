@@ -1,7 +1,7 @@
 :root {
-    --library-heading-recolor-label: rgba(255,255,255,.6);
-    --library-heading-recolor-rule-left: rgba(126, 102, 102, 0.2);
-    --library-heading-recolor-rule-right: rgba(255, 255, 255, 0);
+    --library-heading-recolor-label: #ffffff99;
+    --library-heading-recolor-rule-left: #7e666633;
+    --library-heading-recolor-rule-right: #ffffff00;
 }
 
 .appgrid_AppGridSectionLabel_2hvQb
