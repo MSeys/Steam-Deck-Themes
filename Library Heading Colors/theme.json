@@ -8,7 +8,7 @@
       "shared.css": ["SP", "MainMenu", "QuickAccess"]
   },
   "patches": {
-    "Label Color": {
+    "Colors": {
         "type": "none",
         "values": {
             "_": {
@@ -23,44 +23,24 @@
               "default": "#ffffff99",
               "css_variable": "library-heading-recolor-label",
               "tabs": ["SP", "MainMenu", "QuickAccess"]
+          },
+          {
+              "name": "Rule Color - Left",
+              "type": "color-picker",
+              "on": "_",
+              "default": "#7e666633",
+              "css_variable": "library-heading-recolor-rule-left",
+              "tabs": ["SP", "MainMenu", "QuickAccess"]
+          },
+          {
+              "name": "Rule Color - Right",
+              "type": "color-picker",
+              "on": "_",
+              "default": "#ffffff00",
+              "css_variable": "library-heading-recolor-rule-right",
+              "tabs": ["SP", "MainMenu", "QuickAccess"]
           }
         ]
-    },
-    "Rule Color - Left": {
-      "type": "none",
-      "values": {
-          "_": {
-              "shared.css": ["SP", "MainMenu", "QuickAccess"]
-          }
-      },
-      "components": [
-        {
-          "name": "Rule Color - Left",
-          "type": "color-picker",
-          "on": "_",
-          "default": "#7e666633",
-          "css_variable": "library-heading-recolor-rule-left",
-          "tabs": ["SP", "MainMenu", "QuickAccess"]
-        }
-      ]
-    },
-    "Rule Color - Right": {
-      "type": "none",
-      "values": {
-          "_": {
-              "shared.css": ["SP", "MainMenu", "QuickAccess"]
-          }
-      },
-      "components": [
-        {
-          "name": "Rule Color - Right",
-          "type": "color-picker",
-          "on": "_",
-          "default": "#ffffff00",
-          "css_variable": "library-heading-recolor-rule-right",
-          "tabs": ["SP", "MainMenu", "QuickAccess"]
-        }
-      ]
     }
   }
 }
