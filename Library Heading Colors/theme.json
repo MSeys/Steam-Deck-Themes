@@ -5,14 +5,14 @@
     "target": "Tweak",
     "description": "This is a theme that allows you to re-color the library heading label and rule to colors that better fit your UI.",
     "inject": {
-        "shared.css": ["SP"]
+        "shared.css": ["SP", "MainMenu", "QuickAccess"]
     },
     "patches": {
       "Enable": {
           "type": "none",
           "values": {
               "_": {
-                  "shared.css": ["SP"]
+                  "shared.css": ["SP", "MainMenu", "QuickAccess"]
               }
           },
           "components": [
@@ -22,7 +22,7 @@
                   "on": "_",
                   "default": "rgba(255,255,255,.6)",
                   "css_variable": "library-heading-recolor-label",
-                  "tabs": ["SP"]
+                  "tabs": ["SP", "MainMenu", "QuickAccess"]
               },
               {
                 "name": "Rule Color - Left",
@@ -30,7 +30,7 @@
                 "on": "_",
                 "default": "rgba(126, 102, 102, 0.2)",
                 "css_variable": "library-heading-recolor-rule-left",
-                "tabs": ["SP"]
+                "tabs": ["SP", "MainMenu", "QuickAccess"]
             },
             {
               "name": "Rule Color - Right",
@@ -38,8 +38,8 @@
               "on": "_",
               "default": "rgba(255, 255, 255, 0)",
               "css_variable": "library-heading-recolor-rule-right",
-              "tabs": ["SP"]
-          }
+              "tabs": ["SP", "MainMenu", "QuickAccess"]
+            }
           ]
       }
   }
