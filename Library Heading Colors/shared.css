@@ -1,0 +1,15 @@
+:root {
+    --library-heading-recolor-label: rgba(255,255,255,.6);
+    --library-heading-recolor-rule-left: rgba(126, 102, 102, 0.2);
+    --library-heading-recolor-rule-right: rgba(255, 255, 255, 0);
+}
+
+.appgrid_AppGridSectionLabel_2hvQb
+{
+    color: var(--library-heading-recolor-label);
+}
+
+.appgrid_Rule_3pJqX
+{
+    background: linear-gradient(to right, var(--library-heading-recolor-rule-left), var(--library-heading-recolor-rule-right));
+}
