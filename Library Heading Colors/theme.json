@@ -20,7 +20,7 @@
               "name": "Color Picker",
               "type": "color-picker",
               "on": "_",
-              "default": "rgba(255,255,255,.6)",
+              "default": "#ffffff99",
               "css_variable": "library-heading-recolor-label",
               "tabs": ["SP", "MainMenu", "QuickAccess"]
           }
@@ -38,7 +38,7 @@
           "name": "Color Picker",
           "type": "color-picker",
           "on": "_",
-          "default": "rgba(126, 102, 102, 0.2)",
+          "default": "#7e666633",
           "css_variable": "library-heading-recolor-rule-left",
           "tabs": ["SP", "MainMenu", "QuickAccess"]
         }
@@ -56,7 +56,7 @@
           "name": "Color Picker",
           "type": "color-picker",
           "on": "_",
-          "default": "rgba(255, 255, 255, 0)",
+          "default": "#ffffff00",
           "css_variable": "library-heading-recolor-rule-right",
           "tabs": ["SP", "MainMenu", "QuickAccess"]
         }
