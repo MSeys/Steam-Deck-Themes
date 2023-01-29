@@ -9,7 +9,7 @@
   },
   "patches": {
     "Label Color": {
-        "type": "checkbox",
+        "type": "none",
         "values": {
             "_": {
                 "shared.css": ["SP", "MainMenu", "QuickAccess"]
@@ -27,7 +27,7 @@
         ]
     },
     "Rule Color - Left": {
-      "type": "checkbox",
+      "type": "none",
       "values": {
           "_": {
               "shared.css": ["SP", "MainMenu", "QuickAccess"]
@@ -45,7 +45,7 @@
       ]
     },
     "Rule Color - Right": {
-      "type": "checkbox",
+      "type": "none",
       "values": {
           "_": {
               "shared.css": ["SP", "MainMenu", "QuickAccess"]
