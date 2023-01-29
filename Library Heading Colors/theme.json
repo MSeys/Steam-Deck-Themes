@@ -1,43 +1,66 @@
 {
-    "name": "Library Heading Colors",
-    "author": "Matthias#8282",
-    "manifest_version": 3,
-    "target": "Tweak",
-    "description": "This is a theme that allows you to re-color the library heading label and rule to colors that better fit your UI.",
-    "patches": {
-      "Enable": {
-          "type": "none",
-          "values": {
-              "_": {
-                  "shared.css": ["SP", "MainMenu", "QuickAccess"]
-              }
-          },
-          "components": [
-              {
-                  "name": "Label Color",
-                  "type": "color-picker",
-                  "on": "_",
-                  "default": "rgba(255,255,255,.6)",
-                  "css_variable": "library-heading-recolor-label",
-                  "tabs": ["SP", "MainMenu", "QuickAccess"]
-              },
-              {
-                "name": "Rule Color - Left",
-                "type": "color-picker",
-                "on": "_",
-                "default": "rgba(126, 102, 102, 0.2)",
-                "css_variable": "library-heading-recolor-rule-left",
-                "tabs": ["SP", "MainMenu", "QuickAccess"]
-            },
-            {
-              "name": "Rule Color - Right",
+  "name": "Library Heading Colors",
+  "author": "Matthias#8282",
+  "manifest_version": 3,
+  "target": "Tweak",
+  "description": "This is a theme that allows you to re-color the library heading label and rule to colors that better fit your UI.",
+  "inject": {
+      "shared.css": ["SP", "MainMenu", "QuickAccess"]
+  },
+  "patches": {
+    "Label Color": {
+        "type": "checkbox",
+        "values": {
+            "_": {
+                "shared.css": ["SP", "MainMenu", "QuickAccess"]
+            }
+        },
+        "components": [
+          {
+              "name": "Color Picker",
               "type": "color-picker",
               "on": "_",
-              "default": "rgba(255, 255, 255, 0)",
-              "css_variable": "library-heading-recolor-rule-right",
+              "default": "rgba(255,255,255,.6)",
+              "css_variable": "library-heading-recolor-label",
               "tabs": ["SP", "MainMenu", "QuickAccess"]
-            }
-          ]
-      }
+          }
+        ]
+    },
+    "Rule Color - Left": {
+      "type": "checkbox",
+      "values": {
+          "_": {
+              "shared.css": ["SP", "MainMenu", "QuickAccess"]
+          }
+      },
+      "components": [
+        {
+          "name": "Color Picker",
+          "type": "color-picker",
+          "on": "_",
+          "default": "rgba(126, 102, 102, 0.2)",
+          "css_variable": "library-heading-recolor-rule-left",
+          "tabs": ["SP", "MainMenu", "QuickAccess"]
+        }
+      ]
+    },
+    "Rule Color - Right": {
+      "type": "checkbox",
+      "values": {
+          "_": {
+              "shared.css": ["SP", "MainMenu", "QuickAccess"]
+          }
+      },
+      "components": [
+        {
+          "name": "Color Picker",
+          "type": "color-picker",
+          "on": "_",
+          "default": "rgba(255, 255, 255, 0)",
+          "css_variable": "library-heading-recolor-rule-right",
+          "tabs": ["SP", "MainMenu", "QuickAccess"]
+        }
+      ]
+    }
   }
 }
