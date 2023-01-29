@@ -1,0 +1,67 @@
+{
+    "name": "Reduce Tab Shoulder Icons Size",
+    "author": "Matthias#8282",
+    "manifest_version": 3,
+    "target": "System-Wide",
+    "description": "This is a theme that reduces the shoulder icons that appear quite big for tab groups. Default is set to 70%",
+    "inject": {
+        "shared.css": ["SP", "MainMenu", "QuickAccess"]
+    },
+    "patches": {
+        "Intensity": {
+          "default": "70%",
+          "type": "slider",
+          "values": {
+            "0%": {
+                "size/0percent.css": [
+                  "SP",
+                  "MainMenu",
+                  "QuickAccess"
+                ]
+            },
+            "50%": {
+                "size/50percent.css": [
+                  "SP",
+                  "MainMenu",
+                  "QuickAccess"
+                ]
+            },
+            "60%": {
+                "size/60percent.css": [
+                  "SP",
+                  "MainMenu",
+                  "QuickAccess"
+                ]
+            },
+            "70%": {
+                "size/70percent.css": [
+                  "SP",
+                  "MainMenu",
+                  "QuickAccess"
+                ]
+            },
+            "80%": {
+                "size/80percent.css": [
+                  "SP",
+                  "MainMenu",
+                  "QuickAccess"
+                ]
+            },
+            "90%": {
+                "size/90percent.css": [
+                  "SP",
+                  "MainMenu",
+                  "QuickAccess"
+                ]
+            },
+            "100%": {
+              "size/100percent.css": [
+                "SP",
+                "MainMenu",
+                "QuickAccess"
+              ]
+            }
+          }
+        }
+      }
+}
