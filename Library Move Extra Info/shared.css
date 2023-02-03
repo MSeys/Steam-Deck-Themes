@@ -1,0 +1,17 @@
+.BasicUI .appportrait_LibraryItemBox_WYgDg:focus~.appportrait_LibraryItemBoxSubscript_1LJqx
+{
+    z-index: 13;
+}
+
+.BasicUI .appportrait_LibraryItemBoxSubscript_1LJqx {
+    margin-top: -25px;
+    border-radius: 25px;
+}
+
+.appportrait_LibraryItemBox_WYgDg:focus~.appportrait_LibraryItemBoxSubscript_1LJqx {
+    transform: translateX(-2em) translateY(-1px) translateZ(15px);
+}
+
+.appgrid_YourCollection_11p6F {
+    gap: 25px 16px;
+}
