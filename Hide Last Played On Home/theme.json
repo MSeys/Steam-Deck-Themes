@@ -5,7 +5,7 @@
   "target": "Tweak",
   "description": "This is a theme that removes the Last Played information under game name on the home screen.",
   "inject": {
-      "shared.css": ["MainMenu"]
+      "shared.css": ["SP", "MainMenu", "QuickAccess"]
   },
   "patches": {
       "Add Margin": {
@@ -13,7 +13,7 @@
           "values": {
               "No": {},
               "Yes": {
-                  "margin.css": ["MainMenu"]
+                  "margin.css": ["SP", "MainMenu", "QuickAccess"]
               }
           }
       }
