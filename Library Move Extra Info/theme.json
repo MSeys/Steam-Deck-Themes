@@ -6,5 +6,16 @@
   "description": "This is a theme that moves the extra info on top of the banner.",
   "inject": {
       "shared.css": ["SP", "MainMenu", "QuickAccess"]
+  },
+  "patches": {
+        "Start With Margin": {
+            "type": "checkbox",
+            "values": {
+                "No": {},
+                "Yes": {
+                    "startmargin.css": ["SP", "MainMenu", "QuickAccess"]
+                }
+            }
+        }
   }
 }

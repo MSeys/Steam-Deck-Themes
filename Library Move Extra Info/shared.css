@@ -9,7 +9,8 @@
 }
 
 .appportrait_LibraryItemBox_WYgDg:focus~.appportrait_LibraryItemBoxSubscript_1LJqx {
-    transform: translateX(-2em) translateY(-1px) translateZ(15px);
+    transform: translateY(-1px) translateZ(15px);
+    margin-left: 0px;
 }
 
 .appgrid_YourCollection_11p6F {
