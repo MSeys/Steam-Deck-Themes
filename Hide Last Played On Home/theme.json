@@ -1,0 +1,10 @@
+{
+  "name": "Library Heading Colors",
+  "author": "Matthias#8282",
+  "manifest_version": 3,
+  "target": "Tweak",
+  "description": "This is a theme that allows you to re-color the library heading label and rule to colors that better fit your UI.",
+  "inject": {
+      "shared.css": ["SP", "MainMenu", "QuickAccess"]
+  }
+}
