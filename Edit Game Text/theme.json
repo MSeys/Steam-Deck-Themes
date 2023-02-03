@@ -1,0 +1,30 @@
+{
+  "name": "Hide Last Played On Home",
+  "author": "Matthias#8282",
+  "manifest_version": 3,
+  "target": "Tweak",
+  "description": "This is a theme that edits the game text (on Home Screen). It allows you to center and also hide the last played info. Plus add a margin so the game title is just above the banner.",
+  "inject": {
+      "shared.css": ["SP", "MainMenu", "QuickAccess"]
+  },
+  "patches": {
+        "Center Text": {
+            "type": "checkbox",
+            "values": {
+                "No": {},
+                "Yes": {
+                    "center.css": ["SP", "MainMenu", "QuickAccess"]
+                }
+            }
+        },
+        "Add Margin": {
+            "type": "checkbox",
+            "values": {
+                "No": {},
+                "Yes": {
+                    "margin.css": ["SP", "MainMenu", "QuickAccess"]
+                }
+            }
+        }
+  }
+}
