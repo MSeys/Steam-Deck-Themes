@@ -2,7 +2,7 @@
   "name": "Hide Last Played On Home",
   "author": "Matthias#8282",
   "manifest_version": 3,
-  "target": "Tweak",
+  "target": "Home",
   "description": "This is a theme that allows you to hide the extra information on home screen.",
   "inject": {
       "shared.css": ["SP", "MainMenu", "QuickAccess"]
