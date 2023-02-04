@@ -3,7 +3,7 @@
   "author": "Matthias#8282",
   "manifest_version": 3,
   "target": "Library",
-  "description": "This is a theme that moves the extra info on top of the banner.",
+  "description": "This is a theme that moves the extra info closer to the banner.",
   "inject": {
       "shared.css": ["SP", "MainMenu", "QuickAccess"]
   },
@@ -16,6 +16,27 @@
                     "startmargin.css": ["SP", "MainMenu", "QuickAccess"]
                 }
             }
-        }
+        },
+        "Align Mid": {
+            "type": "checkbox",
+            "values": {
+                "No": {},
+                "Yes": {
+                    "alignmid.css": ["SP", "MainMenu", "QuickAccess"]
+                }
+            }
+        },
+        "Roundedness": {
+            "default": "10px",
+            "type": "slider",
+            "values": {
+              "3px": { "roundedness/3px.css": ["SP", "MainMenu", "QuickAccess"] },
+              "5px": { "roundedness/5px.css": ["SP", "MainMenu", "QuickAccess"] },
+              "10px": { "roundedness/10px.css": ["SP", "MainMenu", "QuickAccess"] },
+              "15px": { "roundedness/15px.css": ["SP", "MainMenu", "QuickAccess"] },
+              "20px": { "roundedness/20px.css": ["SP", "MainMenu", "QuickAccess"] },
+              "30px": { "roundedness/30px.css": ["SP", "MainMenu", "QuickAccess"] }
+            }
+          }
   }
 }
