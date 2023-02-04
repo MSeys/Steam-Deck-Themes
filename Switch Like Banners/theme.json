@@ -1,0 +1,10 @@
+{
+  "name": "Switch-Like Banners",
+  "author": "Matthias#8282",
+  "manifest_version": 3,
+  "target": "System-Wide",
+  "description": "This is a theme that makes all banners square, similar to the Switch.",
+  "inject": {
+      "shared.css": ["SP", "MainMenu", "QuickAccess"]
+  }
+}

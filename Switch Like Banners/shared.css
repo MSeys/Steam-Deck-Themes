@@ -1,0 +1,17 @@
+:root {
+    --switch-like-size: 133px;
+}
+
+.appportrait_LibraryItemBox_WYgDg.appportrait_Portrait_1Pf6J.libraryassetimage_Container_1R9r2
+{
+    width: var(--switch-like-size) !important;
+    height: var(--switch-like-size) !important;
+    background: transparent !important;
+}
+
+.appportrait_LibraryItemBox_WYgDg.appportrait_Portrait_1Pf6J.libraryassetimage_Container_1R9r2 img
+{
+    width: var(--switch-like-size) !important;
+    height: var(--switch-like-size) !important;
+    object-position: top;
+}
