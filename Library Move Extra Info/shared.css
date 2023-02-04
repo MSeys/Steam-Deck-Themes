@@ -4,8 +4,11 @@
 }
 
 .BasicUI .appportrait_LibraryItemBoxSubscript_1LJqx {
-    margin-top: -25px;
+    margin-top: -2em;
     border-radius: 25px;
+    height: 20px;
+    font-size: 12px;
+    padding-top: 2px !important;
 }
 
 .appportrait_LibraryItemBox_WYgDg:focus~.appportrait_LibraryItemBoxSubscript_1LJqx {
