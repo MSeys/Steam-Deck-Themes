@@ -1,17 +1,42 @@
 :root {
-    --switch-like-size: 133px;
+    --switch-like-size-main-height: 145px;
+    --switch-like-size-sub-height: 133px;
 }
 
-.appportrait_LibraryItemBox_WYgDg.appportrait_Portrait_1Pf6J.libraryassetimage_Container_1R9r2
+.basicgamecarousel_BasicGameCarousel_3MdH5 > .ReactVirtualized__Grid__innerScrollContainer
 {
-    width: var(--switch-like-size) !important;
-    height: var(--switch-like-size) !important;
-    background: transparent !important;
+    height: var(--switch-like-size-main-height) !important;
+    transform: translateY(75px);
 }
 
-.appportrait_LibraryItemBox_WYgDg.appportrait_Portrait_1Pf6J.libraryassetimage_Container_1R9r2 img
+.ReactVirtualized__Grid__innerScrollContainer > div
 {
-    width: var(--switch-like-size) !important;
-    height: var(--switch-like-size) !important;
+    height: var(--switch-like-size-main-height) !important;
+    --game-id: attr(data-id);
+}
+
+.basicgamecarousel_BasicGameCarouselItem_3YYQ9
+{
+    height: var(--switch-like-size-main-height) !important;
+}
+
+.basicgamecarousel_BasicGameCarouselItemMediaContainer_1HIFN, .basicgamecarousel_BasicGameCarouselItemMediaContainer_1HIFN > div
+{
+    height: var(--switch-like-size-sub-height) !important;
+}
+
+.appportrait_PortraitImage_2IYf7.appportrait_Capsule_13w3S.appportrait_CapsuleVisible_3QIfJ
+{
+    padding-top: var(--switch-like-size-sub-height) !important;
+}
+
+.appportrait_FeaturedCapsule_xp7A-
+{
+    overflow-y: hidden !important;
+}
+
+.appportrait_PortraitImage_2IYf7.appportrait_Capsule_13w3S.appportrait_CapsuleVisible_3QIfJ img, .appportrait_FeaturedCapsule_xp7A- img
+{
+    object-fit: cover !important;
     object-position: top;
 }
