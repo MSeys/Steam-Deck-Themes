@@ -1,6 +1,7 @@
 {
   "name": "Library Move Extra Info",
   "author": "Matthias#8282",
+  "version": "v1.1",
   "manifest_version": 3,
   "target": "Library",
   "description": "This is a theme that moves the extra info closer to the banner.",
@@ -23,6 +24,15 @@
                 "No": {},
                 "Yes": {
                     "alignmid.css": ["SP", "MainMenu", "QuickAccess"]
+                }
+            }
+        },
+        "Use Obsidian": {
+            "type": "checkbox",
+            "values": {
+                "No": {},
+                "Yes": {
+                    "useobsidian.css": ["SP", "MainMenu", "QuickAccess"]
                 }
             }
         },

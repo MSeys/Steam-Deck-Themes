@@ -1,0 +1,9 @@
+.BasicUI .appportrait_LibraryItemBoxSubscript_1LJqx {
+    background: var(--obsidian-main-color);
+    filter: brightness(175%);
+}
+
+.appportrait_LibraryItemBoxSubscript_1LJqx.appportrait_ClassAllAchieved_31wTt
+{
+    filter: brightness(100%);
+}
