@@ -4,7 +4,7 @@
   "version": "v1.0",
   "manifest_version": 3,
   "target": "Library",
-  "description": "This is a theme that improves HLTB Styling and adds Obsidian support.",
+  "description": "This is a theme that improves HLTB Styling and adds Obsidian support. Note: You need the HLTB plugin installed.",
   "inject": {
       "shared.css": ["SP", "MainMenu", "QuickAccess"]
   },
