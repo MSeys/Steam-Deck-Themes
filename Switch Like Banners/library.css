@@ -1,0 +1,54 @@
+.gamepadlibrary_GamepadLibrary_ZBBhe .basicgamecarousel_BasicGameCarousel_3MdH5 > .ReactVirtualized__Grid__innerScrollContainer
+{
+    height: var(--switch-like-size-main-height) !important;
+    transform: translateY(75px);
+}
+
+.gamepadlibrary_GamepadLibrary_ZBBhe .ReactVirtualized__Grid__innerScrollContainer > div
+{
+    height: var(--switch-like-size-main-height) !important;
+    --game-id: attr(data-id);
+}
+
+.gamepadlibrary_GamepadLibrary_ZBBhe .basicgamecarousel_BasicGameCarouselItem_3YYQ9
+{
+    height: var(--switch-like-size-main-height) !important;
+}
+
+.gamepadlibrary_GamepadLibrary_ZBBhe .basicgamecarousel_BasicGameCarouselItemMediaContainer_1HIFN, .gamepadlibrary_GamepadLibrary_ZBBhe .basicgamecarousel_BasicGameCarouselItemMediaContainer_1HIFN > div
+{
+    height: var(--switch-like-size-sub-height) !important;
+}
+
+.gamepadlibrary_GamepadLibrary_ZBBhe .appportrait_PortraitImage_2IYf7.appportrait_Capsule_13w3S.appportrait_CapsuleVisible_3QIfJ
+{
+    padding-top: var(--switch-like-size-sub-height) !important;
+}
+
+.gamepadlibrary_GamepadLibrary_ZBBhe .appportrait_FeaturedCapsule_xp7A-
+{
+    overflow-y: hidden !important;
+}
+
+.gamepadlibrary_GamepadLibrary_ZBBhe .appportrait_PortraitImage_2IYf7.appportrait_Capsule_13w3S.appportrait_CapsuleVisible_3QIfJ img, .gamepadlibrary_GamepadLibrary_ZBBhe .appportrait_FeaturedCapsule_xp7A- img
+{
+    object-fit: cover !important;
+    object-position: top;
+}
+
+
+.gamepadlibrary_GamepadLibrary_ZBBhe .appportrait_Draggable_1pwP4
+{
+    height: var(--switch-like-size-sub-height);
+}
+
+.gamepadlibrary_GamepadLibrary_ZBBhe .appgrid_YourCollection_11p6F
+{
+    grid-auto-rows: var(--switch-like-size-sub-height) !important;
+}
+
+.gamepadlibrary_GamepadLibrary_ZBBhe .cssgrid_Container_DGRkX
+{
+    height: auto !important;
+    margin-bottom: 30px;
+}

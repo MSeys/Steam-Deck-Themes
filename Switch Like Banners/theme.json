@@ -1,10 +1,30 @@
 {
-  "name": "Home Switch-like Banners",
+  "name": "Switch-like Banners",
   "author": "Matthias#8282",
   "manifest_version": 3,
-  "target": "Home",
-  "description": "This is a theme that makes the Home banners square, similar to the Switch.",
+  "target": "System-Wide",
+  "description": "This is a theme that makes the banners square, similar to the Switch. Home and Library supported.",
   "inject": {
       "shared.css": ["SP", "MainMenu", "QuickAccess"]
+  },
+  "patches": {
+        "Home": {
+            "type": "checkbox",
+            "values": {
+                "No": {},
+                "Yes": {
+                    "home.css": ["SP", "MainMenu", "QuickAccess"]
+                }
+            }
+        },
+        "Library": {
+            "type": "checkbox",
+            "values": {
+                "No": {},
+                "Yes": {
+                    "library.css": ["SP", "MainMenu", "QuickAccess"]
+                }
+            }
+        }
   }
 }
