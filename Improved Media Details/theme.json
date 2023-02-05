@@ -1,0 +1,21 @@
+{
+    "name": "Improved Media Details",
+    "author": "Matthias#8282",
+    "manifest_version": 3,
+    "target": "Media",
+    "description": "This is a theme that improves the readability of media details as they're very unreadable depending on the image.",
+    "inject": {
+        "shared.css": ["SP", "MainMenu", "QuickAccess"]
+    },
+    "patches": {
+          "Always Show Details": {
+              "type": "checkbox",
+              "values": {
+                  "No": {},
+                  "Yes": {
+                      "alldetails.css": ["SP", "MainMenu", "QuickAccess"]
+                  }
+              }
+          }
+    }
+}
