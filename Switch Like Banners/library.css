@@ -44,7 +44,8 @@
 
 .gamepadlibrary_GamepadLibrary_ZBBhe .appgrid_YourCollection_11p6F
 {
-    grid-auto-rows: var(--switch-like-size-sub-height) !important;
+    grid-auto-rows: 170px !important;
+    gap: 0px 16px !important;
 }
 
 .gamepadlibrary_GamepadLibrary_ZBBhe .cssgrid_Container_DGRkX
