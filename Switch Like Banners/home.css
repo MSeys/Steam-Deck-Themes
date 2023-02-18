@@ -14,7 +14,7 @@
     height: var(--switch-like-size-main-height) !important;
 }
 
-.gamepadhome_RecentSection_39tNv .basicgamecarousel_BasicGameCarouselItemMediaContainer_1HIFN, .basicgamecarousel_BasicGameCarouselItemMediaContainer_1HIFN > div
+.gamepadhome_RecentSection_39tNv .basicgamecarousel_BasicGameCarouselItemMediaContainer_1HIFN, .gamepadhome_RecentSection_39tNv .basicgamecarousel_BasicGameCarouselItemMediaContainer_1HIFN > div
 {
     height: var(--switch-like-size-sub-height) !important;
 }
@@ -30,7 +30,7 @@
     overflow-y: hidden !important;
 }
 
-.gamepadhome_RecentSection_39tNv .appportrait_PortraitImage_2IYf7.appportrait_Capsule_13w3S.appportrait_CapsuleVisible_3QIfJ img, .appportrait_FeaturedCapsule_xp7A- img
+.gamepadhome_RecentSection_39tNv .appportrait_PortraitImage_2IYf7.appportrait_Capsule_13w3S.appportrait_CapsuleVisible_3QIfJ img, .gamepadhome_RecentSection_39tNv .appportrait_FeaturedCapsule_xp7A- img
 {
     object-fit: cover !important;
     object-position: top;
