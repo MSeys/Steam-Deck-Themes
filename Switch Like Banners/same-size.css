@@ -18,102 +18,15 @@
     width: var(--switch-like-size-sub-height) !important;
 }
 
-.gamepadhome_RecentSection_39tNv .ReactVirtualized__Grid__innerScrollContainer > div:nth-child(2){
-    left: calc(var(--switch-like-size-main-height) * 1) !important;
+.gamepadhome_RecentSection_39tNv .ReactVirtualized__Grid__innerScrollContainer
+{
+    display: flex !important;
 }
 
-.gamepadhome_RecentSection_39tNv .ReactVirtualized__Grid__innerScrollContainer > div:nth-child(3)
+.gamepadhome_RecentSection_39tNv .ReactVirtualized__Grid__innerScrollContainer > div
 {
-    left: calc(var(--switch-like-size-main-height) * 2) !important;
-}
-
-.gamepadhome_RecentSection_39tNv .ReactVirtualized__Grid__innerScrollContainer > div:nth-child(4)
-{
-    left: calc(var(--switch-like-size-main-height) * 3) !important;
-}
-
-.gamepadhome_RecentSection_39tNv .ReactVirtualized__Grid__innerScrollContainer > div:nth-child(5)
-{
-    left: calc(var(--switch-like-size-main-height) * 4) !important;
-}
-
-.gamepadhome_RecentSection_39tNv .ReactVirtualized__Grid__innerScrollContainer > div:nth-child(6)
-{
-    left: calc(var(--switch-like-size-main-height) * 5) !important;
-}
-
-.gamepadhome_RecentSection_39tNv .ReactVirtualized__Grid__innerScrollContainer > div:nth-child(7)
-{
-    left: calc(var(--switch-like-size-main-height) * 6) !important;
-}
-
-.gamepadhome_RecentSection_39tNv .ReactVirtualized__Grid__innerScrollContainer > div:nth-child(8)
-{
-    left: calc(var(--switch-like-size-main-height) * 7) !important;
-}
-
-.gamepadhome_RecentSection_39tNv .ReactVirtualized__Grid__innerScrollContainer > div:nth-child(9)
-{
-    left: calc(var(--switch-like-size-main-height) * 8) !important;
-}
-
-.gamepadhome_RecentSection_39tNv .ReactVirtualized__Grid__innerScrollContainer > div:nth-child(10)
-{
-    left: calc(var(--switch-like-size-main-height) * 9) !important;
-}
-
-.gamepadhome_RecentSection_39tNv .ReactVirtualized__Grid__innerScrollContainer > div:nth-child(11)
-{
-    left: calc(var(--switch-like-size-main-height) * 10) !important;
-}
-
-.gamepadhome_RecentSection_39tNv .ReactVirtualized__Grid__innerScrollContainer > div:nth-child(12)
-{
-    left: calc(var(--switch-like-size-main-height) * 11) !important;
-}
-
-.gamepadhome_RecentSection_39tNv .ReactVirtualized__Grid__innerScrollContainer > div:nth-child(13)
-{
-    left: calc(var(--switch-like-size-main-height) * 12) !important;
-}
-
-.gamepadhome_RecentSection_39tNv .ReactVirtualized__Grid__innerScrollContainer > div:nth-child(14)
-{
-    left: calc(var(--switch-like-size-main-height) * 13) !important;
-}
-
-.gamepadhome_RecentSection_39tNv .ReactVirtualized__Grid__innerScrollContainer > div:nth-child(15)
-{
-    left: calc(var(--switch-like-size-main-height) * 14) !important;
-}
-
-.gamepadhome_RecentSection_39tNv .ReactVirtualized__Grid__innerScrollContainer > div:nth-child(16)
-{
-    left: calc(var(--switch-like-size-main-height) * 15) !important;
-}
-
-.gamepadhome_RecentSection_39tNv .ReactVirtualized__Grid__innerScrollContainer > div:nth-child(17)
-{
-    left: calc(var(--switch-like-size-main-height) * 16) !important;
-}
-
-.gamepadhome_RecentSection_39tNv .ReactVirtualized__Grid__innerScrollContainer > div:nth-child(18)
-{
-    left: calc(var(--switch-like-size-main-height) * 17) !important;
-}
-
-.gamepadhome_RecentSection_39tNv .ReactVirtualized__Grid__innerScrollContainer > div:nth-child(19)
-{
-    left: calc(var(--switch-like-size-main-height) * 18) !important;
-}
-
-.gamepadhome_RecentSection_39tNv .ReactVirtualized__Grid__innerScrollContainer > div:nth-child(20)
-{
-    left: calc(var(--switch-like-size-main-height) * 19) !important;
-}
-
-.gamepadhome_RecentSection_39tNv .ReactVirtualized__Grid__innerScrollContainer > div:nth-child(21)
-{
-    left: calc(var(--switch-like-size-main-height) * 20) !important;
+    left: auto !important;
+    position: relative !important;
+    display: inline-block !important;
 }
 
