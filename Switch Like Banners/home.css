@@ -1,13 +1,12 @@
 .gamepadhome_RecentSection_39tNv .basicgamecarousel_BasicGameCarousel_3MdH5 > .ReactVirtualized__Grid__innerScrollContainer
 {
     height: var(--switch-like-size-main-height) !important;
-    transform: translateY(75px);
+    transform: translateY(var(--switch-like-size-translatey));
 }
 
 .gamepadhome_RecentSection_39tNv .ReactVirtualized__Grid__innerScrollContainer > div
 {
     height: var(--switch-like-size-main-height) !important;
-    --game-id: attr(data-id);
 }
 
 .gamepadhome_RecentSection_39tNv .basicgamecarousel_BasicGameCarouselItem_3YYQ9
@@ -23,6 +22,7 @@
 .gamepadhome_RecentSection_39tNv .appportrait_PortraitImage_2IYf7.appportrait_Capsule_13w3S.appportrait_CapsuleVisible_3QIfJ
 {
     padding-top: var(--switch-like-size-sub-height) !important;
+    padding-left: 0px !important;
 }
 
 .gamepadhome_RecentSection_39tNv .appportrait_FeaturedCapsule_xp7A-
@@ -34,4 +34,5 @@
 {
     object-fit: cover !important;
     object-position: top;
+    height: var(--switch-like-size-sub-height) !important;
 }

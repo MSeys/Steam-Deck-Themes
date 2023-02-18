@@ -3,7 +3,8 @@
   "author": "Matthias#8282",
   "manifest_version": 3,
   "target": "System-Wide",
-  "description": "This is a theme that makes the banners square, similar to the Switch. Home and Library supported.",
+  "version": "v1.1",
+  "description": "This is a theme that makes the banners square, similar to the Switch. Home and Library supported. Includes an option to make featured banner also squared.",
   "inject": {
       "shared.css": ["SP", "MainMenu", "QuickAccess"]
   },
@@ -25,6 +26,16 @@
                     "library.css": ["SP", "MainMenu", "QuickAccess"]
                 }
             }
+        },
+        "Featured as Square": {
+            "type": "checkbox",
+            "values": {
+                "No": {},
+                "Yes": {
+                    "same-size.css": ["SP", "MainMenu", "QuickAccess"]
+                }
+            }
         }
+
   }
 }

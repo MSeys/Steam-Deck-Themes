@@ -1,4 +1,5 @@
 :root {
     --switch-like-size-main-height: 145px;
     --switch-like-size-sub-height: 133px;
+    --switch-like-size-translatey: 75px;
 }
