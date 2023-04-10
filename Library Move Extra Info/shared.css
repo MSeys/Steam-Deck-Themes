@@ -9,6 +9,8 @@
     height: 20px;
     font-size: 12px;
     padding-top: 2px !important;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
 }
 
 .appportrait_LibraryItemBox_WYgDg:focus~.appportrait_LibraryItemBoxSubscript_1LJqx {
@@ -26,4 +28,10 @@
     width: 0px;
     margin-left: 10px !important;
     color: transparent;
+}
+
+.appportrait_LibraryItemBoxSubscript_1LJqx.appportrait_MCGreen_1KR40,
+.appportrait_LibraryItemBoxSubscript_1LJqx.appportrait_MCOrange_1H3NR,
+.appportrait_LibraryItemBoxSubscript_1LJqx.appportrait_MCRed_3lWVD {
+    line-height: 16px !important;
 }
