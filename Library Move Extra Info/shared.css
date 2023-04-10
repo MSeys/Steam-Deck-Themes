@@ -9,6 +9,8 @@
     height: 20px;
     font-size: 12px;
     padding-top: 2px !important;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
 }
 
 .appportrait_LibraryItemBox_WYgDg:focus~.appportrait_LibraryItemBoxSubscript_1LJqx {
