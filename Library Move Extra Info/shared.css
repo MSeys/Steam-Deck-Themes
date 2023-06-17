@@ -28,7 +28,7 @@
     width: 0px;
     margin-left: 10px !important;
     color: transparent;
-    background-color: transparent;
+    background-color: transparent !transparent;
     box-shadow: none;
 }
 
