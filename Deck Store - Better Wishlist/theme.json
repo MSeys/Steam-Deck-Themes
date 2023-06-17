@@ -1,0 +1,43 @@
+{
+  "name": "Deck Store - Better Wishlist",
+  "author": "MattSeys",
+  "manifest_version": 7,
+  "version": "v0.1",
+  "target": "Store",
+  "description": "Better wishlist gives several option to improve the wishlist such as showing release date and the advanced filter on the Deck Store.",
+  "patches": {
+    "Remove re-order": {
+      "type": "checkbox",
+      "values": {
+        "Yes": {
+          "remove-reorder.css": [
+            "~https://store.steampowered.com~"
+          ]
+        },
+        "No": {}
+      }
+    },
+    "Show release date": {
+      "type": "checkbox",
+      "values": {
+        "Yes": {
+          "show-release-date.css": [
+            "~https://store.steampowered.com~"
+          ]
+        },
+        "No": {}
+      }
+    },
+    "Enable advanced filter": {
+      "type": "checkbox",
+      "values": {
+        "Yes": {
+          "enable-advanced-filter.css": [
+            "~https://store.steampowered.com~"
+          ]
+        },
+        "No": {}
+      }
+    }
+  }
+}

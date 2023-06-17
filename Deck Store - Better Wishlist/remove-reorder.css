@@ -1,0 +1,7 @@
+html.tablet .wishlist_row .hover_handle {
+    visibility: collapse;
+}
+
+html.tablet .wishlist_row .capsule {
+    margin-left: 0px;
+}

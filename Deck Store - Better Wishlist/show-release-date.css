@@ -1,0 +1,6 @@
+html.tablet .wishlist_row .stats .release_date {
+    display: block;
+    margin-top: 2.5px;
+    color: white;
+    font-weight: 400;
+}

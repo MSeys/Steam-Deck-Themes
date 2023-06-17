@@ -1,0 +1,100 @@
+{
+  "name": "Deck Store - Obsidian",
+  "author": "MattSeys",
+  "manifest_version": 7,
+  "version": "v0.1",
+  "target": "Store",
+  "description": "Obsidian theme for Deck Store. v0.1 has limited theming.",
+  "inject": {
+    "shared.css": [
+      "~https://store.steampowered.com~"
+    ]
+  },
+  "patches": {
+    "Main Color": {
+      "default": "Black",
+      "type": "dropdown",
+      "values": {
+        "Black": {},
+        "Dark Gray": {
+          "dark-gray.css": [
+            "~https://store.steampowered.com~"
+          ]
+        },
+        "Gray": {
+          "gray.css": [
+            "~https://store.steampowered.com~"
+          ]
+        },
+        "Red": {
+          "red.css": [
+            "~https://store.steampowered.com~"
+          ]
+        },
+        "Orange": {
+          "orange.css": [
+            "~https://store.steampowered.com~"
+          ]
+        },
+        "Yellow": {
+          "yellow.css": [
+            "~https://store.steampowered.com~"
+          ]
+        },
+        "Green": {
+          "green.css": [
+            "~https://store.steampowered.com~"
+          ]
+        },
+        "Blue": {
+          "blue.css": [
+            "~https://store.steampowered.com~"
+          ]
+        },
+        "Indigo": {
+          "indigo.css": [
+            "~https://store.steampowered.com~"
+          ]
+        },
+        "Violet": {
+          "violet.css": [
+            "~https://store.steampowered.com~"
+          ]
+        },
+        "Custom": {}
+      },
+      "components": [
+        {
+          "name": "Main Color",
+          "type": "color-picker",
+          "on": "Custom",
+          "default": "#000",
+          "css_variable": "--obsidian-main-color",
+          "tabs": [
+            "~https://store.steampowered.com~"
+          ]
+        },
+        {
+          "name": "Dark Background Color",
+          "type": "color-picker",
+          "on": "Custom",
+          "default": "#060606",
+          "css_variable": "--obsidian-dark-background-color",
+          "tabs": [
+            "~https://store.steampowered.com~"
+          ]
+        },
+        {
+          "name": "Light Background Color",
+          "type": "color-picker",
+          "on": "Custom",
+          "default": "#171717",
+          "css_variable": "--obsidian-light-background-color",
+          "tabs": [
+            "~https://store.steampowered.com~"
+          ]
+        }
+      ]
+    }
+  }
+}

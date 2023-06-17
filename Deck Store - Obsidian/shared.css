@@ -1,0 +1,89 @@
+:root {
+  --obsidian-main-color: #000;
+  --obsidian-dark-background-color: #060606;
+  --obsidian-light-background-color: #171717;
+}
+
+/* Great on Deck */
+
+html.tablet .partnersaledisplay_SaleBackground_dmyDb.SaleBackground {
+  background-color: var(--obsidian-main-color) !important;
+}
+
+html.tablet .partnersaledisplay_SaleSection_2NfLq.eventbbcodeparser_SaleSectionCtn_2Xrw_.SaleSectionForCustomCSS
+{
+  background-image: none !important;
+  background-color: transparent !important;
+}
+
+/* Store Home */
+
+html.tablet .responsive_page_content {
+  background-color: var(--obsidian-main-color) !important;
+}
+
+html.tablet .responsive_page_content .home_cluster_ctn {
+  background: transparent !important;
+}
+
+html.tablet .pill_tab_menu_item.active {
+  background-color: var(--obsidian-light-background-color);
+}
+
+/* Game Page */
+
+html.tablet .game_page_background.game #game_highlights {
+  background-color: var(--obsidian-dark-background-color);
+}
+
+html.tablet .game_page_background.game .game_media_and_summary_ctn .queue_ctn {
+  background-color: var(--obsidian-dark-background-color);
+}
+
+html.tablet .game_page_background.game .page_content {
+  background-color: var(--obsidian-dark-background-color) !important;
+}
+
+html.tablet .game_page_background.game .purchase_options_content_tablet .deckverified_BannerContent_1B2KF {
+  background-color: var(--obsidian-light-background-color);
+}
+
+html.tablet .game_page_background.game .purchase_options_content_tablet .game_area_purchase_game {
+  background-color: var(--obsidian-light-background-color);
+}
+
+/* Search */
+
+html.tablet .search_result_row {
+  background-color: var(--obsidian-dark-background-color);
+}
+
+html.tablet .search_result_row:hover, html.tablet .search_result_row.gpfocus {
+  background-color: var(--obsidian-light-background-color);
+}
+
+/* Wishlist */
+
+html.tablet .wishlist .game_page_background.game .page_content {
+  background-color: var(--obsidian-main-color) !important;
+}
+
+html.tablet body.v6.game_bg {
+  background: var(--obsidian-main-color);
+}
+
+html.tablet .wishlist_row {
+  background: var(--obsidian-dark-background-color);
+}
+
+html.tablet .wishlist_row:hover, html.tablet .wishlist_row.gpfocus {
+  background: var(--obsidian-light-background-color);
+}
+
+html.tablet #wishlist_search {
+  background-color: var(--obsidian-dark-background-color);
+}
+
+html.tablet #wishlist_search:focus {
+  background-color: var(--obsidian-light-background-color);
+}
