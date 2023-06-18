@@ -1,0 +1,237 @@
+:root {
+  --round-radius-size: none;
+}
+
+/* Preview image */
+html.tablet .salepreviewwidgets_CapsuleImage_cODQh {
+  border-radius: var(--round-radius-size);
+}
+
+/*  Preview container */
+html.tablet .salepreviewwidgets_OuterCapsuleContainer_Btar9 .ImpressionTrackedElement a.Focusable {
+  border-radius: var(--round-radius-size);
+  background-color: #000;
+}
+
+/* Preview container - bottom bar */
+html.tablet .salepreviewwidgets_OuterCapsuleContainer_Btar9 .salepreviewwidgets_CapsuleBottomBar_6IVLn {
+  border-bottom-left-radius: var(--round-radius-size);
+  border-bottom-right-radius: var(--round-radius-size);
+}
+
+/* Menu pill items */
+html.tablet .pill_tab_menu_item {
+  border-radius: var(--round-radius-size);
+}
+
+/* Banner - e.g. On Wishlist */
+html.tablet .salepreviewwidgets_Banner_1Kvcf,
+html.tablet .ds_flag {
+  border-top-right-radius: var(--round-radius-size);
+  border-bottom-right-radius: var(--round-radius-size);
+}
+
+/* subtext - e.g. 1 Hidden */
+html.tablet .partnersaledisplay_SaleSectionSubtext_1BNUj {
+  border-radius: var(--round-radius-size);
+}
+
+/* Discount box - e.g. -70% */
+html.tablet .salepreviewwidgets_StoreSaleDiscountBox_2fpFv {
+  border-radius: var(--round-radius-size);
+}
+
+/* Button - Show more */
+html.tablet .salesection_ShowContentsButton_p8mU9, html.tablet .salesection_ShowContentsButton_p8mU9.gpfocus,
+html.tablet .saleitembrowser_ShowContentsButton_3d9cK, html.tablet .saleitembrowser_ShowContentsButton_3d9cK.gpfocus {
+  border-radius: var(--round-radius-size) !important;
+}
+
+/* Button / sorting - e.g. New & Trending / Top Sellers / etc */
+html.tablet .saleitembrowser_FlavorLabel_Dhg57 {
+  border-radius: var(--round-radius-size) !important;
+}
+
+/* General buttons */
+html.tablet .DialogButton, html.tablet .DialogButton.gpfocus {
+  border-radius: var(--round-radius-size) !important;
+}
+
+/* General tag */
+html.tablet .tag, html.tablet .app_tag {
+  border-radius: var(--round-radius-size) !important;
+}
+
+html.tablet .note a, html.tablet .note a.gpfocus {
+  border-radius: var(--round-radius-size) !important;
+}
+
+html.tablet .deckverified_LearnMore_1Vhpn, html.tablet .deckverified_LearnMore_1Vhpn.gpfocus {
+  border-radius: var(--round-radius-size);
+}
+
+html.tablet .btn_medium, html.tablet .btn_medium.gpfocus,
+html.tablet .btn_small_thin, html.tablet .btn_small_thin.gpfocus {
+  border-radius: var(--round-radius-size) !important;
+}
+
+/* DRM notice */
+html.tablet .DRM_notice {
+  border-radius: var(--round-radius-size);
+}
+
+/* Sale banners */
+html.tablet .saleEventBannerLink, html.tablet .saleEventBannerStyle {
+  border-radius: var(--round-radius-size);
+}
+
+/* Great on Deck */
+
+  /* Carousel - Main gradient background */
+  html.tablet .salepreviewwidgets_StoreSaleWidgetContainer_UlvFk {
+    border-radius: var(--round-radius-size) !important;
+  }
+
+  /* Carousel - Item Image  */
+  html.tablet .salepreviewwidgets_StoreSaleWidgetImage_21N0p .salepreviewwidgets_HeaderCapsuleImageContainer_Cqh49 .salepreviewwidgets_CapsuleImage_cODQh {
+    z-index: 1; /* Put image higher than content to allow for full border radius */
+  }
+
+  /* Carousel - Item Content */
+  html.tablet .salepreviewwidgets_StoreSaleWidgetRight_1lRFu {
+    border-radius: var(--round-radius-size);
+    z-index: 0;
+    /* Offset to allow image to be completely rounded */
+    margin-left: -25px;
+    padding-left: 40px;
+  }
+
+  /* Preview Widget Tag / Labels */
+  html.tablet .salepreviewwidgets_Tag_172zD {
+    border-radius: var(--round-radius-size);
+  }
+
+  /* Category tabs e.g. Featured / Action / Adventure / etc */
+  html.tablet .partnersaledisplay_SaleTab_3jWYu {
+    border-radius: var(--round-radius-size) !important;
+  }
+
+  /* Discovery Queue */
+  html.tablet .partnersaledisplay_SaleSection_2NfLq.eventbbcodeparser_SaleSectionCtn_2Xrw_ .discoveryqueuewidget_DiscoveryQueueWidgetCtn_1iOb7 {
+    border-radius: var(--round-radius-size);
+  }
+
+  /* event item */
+  html.tablet .eventrow_OtherEvents_2ioeM .eventrow_OtherEvents_EventCtn_17gGs,
+  html.tablet .eventrow_OtherEvents_2ioeM .eventrow_OtherEvents_MainImage_3xf4A,
+  html.tablet .eventrow_OtherEvents_2ioeM .eventrow_AppCapsuleImage_2vo-l {
+    border-radius: var(--round-radius-size);
+  }
+
+/* Store Home */
+
+/* Game Page */
+
+  html.tablet .game_background_glow .responsive_page_header_img, html.tablet .game_background_glow .responsive_page_header_img img {
+    border-radius: var(--round-radius-size);
+  }
+
+  html.tablet .game_page_background.game #game_highlights {
+    border-top-left-radius: var(--round-radius-size);
+    border-top-right-radius: var(--round-radius-size);
+    /* Offset to allow full radius on image */
+    margin-top: -25px;
+    padding-top: 35px;
+  }
+
+  html.tablet .game_page_background.game #game_highlights .highlight_carousel_item {
+    border-radius: var(--round-radius-size);
+  }
+
+  html.tablet .game_page_background.game .purchase_options_content_tablet .deckverified_BannerContent_1B2KF {
+    border-radius: var(--round-radius-size);
+  }
+
+  html.tablet .game_page_background.game .purchase_options_content_tablet .game_area_purchase_game {
+    border-radius: var(--round-radius-size);
+  }
+
+  html.tablet #userReviews_responsive, html.tablet #userReviews_responsive.gpfocus {
+    border-radius: var(--round-radius-size);
+  }
+
+  /* Banner links */
+  html.tablet .responsive_banner_link, html.tablet .responsive_banner_link.gpfocus {
+    border-radius: var(--round-radius-size) !important;
+  }
+
+  /* App impression tracked (More like this) */
+  html.tablet .app_impression_tracked, html.tablet .app_impression_tracked img {
+    border-radius: var(--round-radius-size);
+  }
+
+  /* Review box */
+  html.tablet .review_box, 
+  html.tablet .review_box .view_more a, html.tablet .review_box .view_more a.gpfocus,
+  html.tablet .review_box .review_award, html.tablet .review_box .review_award.gpfocus {
+    border-radius: var(--round-radius-size) !important;
+  }
+
+  html.tablet .review_ctn .page_content {
+    border-bottom-left-radius: var(--round-radius-size);
+    border-bottom-right-radius: var(--round-radius-size);
+  }
+
+/* Search */
+
+  html.tablet .search_result_row {
+    border-radius: var(--round-radius-size);
+  }
+
+/* Wishlist */
+  html.tablet .wishlist_row, html.tablet .wishlist_row .capsule, html.tablet .wishlist_row img  {
+    border-radius: var(--round-radius-size);
+  }
+
+  html.tablet #wishlist_search, html.tablet #wishlist_search.gpfocus {
+    border-radius: var(--round-radius-size);
+  }
+
+
+/* Outline */
+
+  .focusring_FocusRing_1IZrQ {
+    outline: none !important;
+    border: 2px solid rgba(255, 255, 255, 0.6);
+    border-radius: calc(var(--round-radius-size) + 2px);
+    margin: -2px;
+    animation: focusring_growOutline_Z3LxS_alt 0.4s ease,
+      focusring_fadeOutline_2hZu3_alt 0.4s ease,
+      focusring_blinker_3wFMM_alt 1.2s ease-in-out 0.4s 20 !important;
+  }
+
+  @keyframes focusring_growOutline_Z3LxS_alt {
+    0% {
+      border: 12px solid;
+      margin: -12px;
+      border-radius: calc(var(--round-radius-size) + 10px);
+    }
+    100% {
+      border: 2px solid;
+      margin: -2px;
+      border-radius: calc(var(--round-radius-size) + 2px);
+    }
+  }
+  @keyframes focusring_fadeOutline_2hZu3_alt {
+    0% {
+      border-color: rgba(255, 255, 255, 0);
+    }
+    100% {
+      border-color: rgba(255, 255, 255, 0.6);
+    }
+  }
+  @keyframes focusring_blinker_3wFMM_alt {
+    50% {
+      border: 2px solid rgba(255, 255, 255, 0.24);
+    }
+  }

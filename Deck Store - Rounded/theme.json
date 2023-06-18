@@ -1,0 +1,51 @@
+{
+  "name": "Deck Store - Rounded",
+  "author": "MattSeys",
+  "manifest_version": 7,
+  "version": "v0.1",
+  "target": "Store",
+  "description": "Rounded theme for Deck Store. v0.1 has support for 'Great on Deck', 'Game page' and partially 'Search' and 'Wishlist'.",
+  "inject": {
+    "shared.css": [
+      "~https://store.steampowered.com~"
+    ]
+  },
+  "patches": {
+    "Intensity": {
+      "default": "10px",
+      "type": "slider",
+      "values": {
+        "3px": {
+          "intensity/3px.css": [
+            "~https://store.steampowered.com~"
+          ]
+        },
+        "5px": {
+          "intensity/5px.css": [
+            "~https://store.steampowered.com~"
+          ]
+        },
+        "10px": {
+          "intensity/10px.css": [
+            "~https://store.steampowered.com~"
+          ]
+        },
+        "15px": {
+          "intensity/15px.css": [
+            "~https://store.steampowered.com~"
+          ]
+        },
+        "20px": {
+          "intensity/20px.css": [
+            "~https://store.steampowered.com~"
+          ]
+        },
+        "30px": {
+          "intensity/30px.css": [
+            "~https://store.steampowered.com~"
+          ]
+        }
+      }
+    }
+  }
+}
