@@ -1,7 +1,7 @@
 {
   "name": "Library Move Extra Info",
-  "author": "Matthias#8282",
-  "version": "v1.3",
+  "author": "Matthias, RasitAyaz",
+  "version": "v1.4",
   "manifest_version": 3,
   "target": "Library",
   "description": "This is a theme that moves the extra info closer to the banner.",
