@@ -62,8 +62,11 @@
         "10px": {
           "--library-extra-info-radius-size": ["10px", "SP"]
         },
-        "Full": {
-          "--library-extra-info-radius-size": ["100px", "SP"]
+        "15px": {
+          "--library-extra-info-radius-size": ["15px", "SP"]
+        },
+        "20px": {
+          "--library-extra-info-radius-size": ["20px", "SP"]
         }
       }
     }
