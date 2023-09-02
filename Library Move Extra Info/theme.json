@@ -19,13 +19,16 @@
         "Left when highlighted": {
           "horizontal-align/left-when-highlighted.css": ["SP"]
         },
-        "Center": {},
+        "Center": {
+          "horizontal-align/center.css": ["SP"]
+        },
         "Right": {
           "horizontal-align/right.css": ["SP"]
         }
       }
     },
     "Align Mid": {
+      "default": "Yes",
       "type": "checkbox",
       "values": {
         "No": {},
@@ -47,12 +50,21 @@
       "default": "10px",
       "type": "slider",
       "values": {
-        "3px": { "roundedness/3px.css": ["SP", "MainMenu", "QuickAccess"] },
-        "5px": { "roundedness/5px.css": ["SP", "MainMenu", "QuickAccess"] },
-        "10px": { "roundedness/10px.css": ["SP", "MainMenu", "QuickAccess"] },
-        "15px": { "roundedness/15px.css": ["SP", "MainMenu", "QuickAccess"] },
-        "20px": { "roundedness/20px.css": ["SP", "MainMenu", "QuickAccess"] },
-        "30px": { "roundedness/30px.css": ["SP", "MainMenu", "QuickAccess"] }
+        "0px": {
+          "--library-extra-info-radius-size": ["0px", "SP"]
+        },
+        "3px": {
+          "--library-extra-info-radius-size": ["3px", "SP"]
+        },
+        "5px": {
+          "--library-extra-info-radius-size": ["5px", "SP"]
+        },
+        "10px": {
+          "--library-extra-info-radius-size": ["10px", "SP"]
+        },
+        "Full": {
+          "--library-extra-info-radius-size": ["100px", "SP"]
+        }
       }
     }
   }

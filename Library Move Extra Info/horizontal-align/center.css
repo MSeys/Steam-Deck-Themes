@@ -14,6 +14,5 @@
   ~ .appportrait_LibraryItemBoxSubscript_1LJqx:not(
     .appportrait_ClassAllAchieved_31wTt
   ) {
-  right: unset;
-  transform: translateX(-2px) translateY(4px);
+  transform: translateY(4px);
 }

@@ -1,3 +1,17 @@
-.BasicUI .appportrait_LibraryItemBoxSubscript_1LJqx {
-  margin-right: 4px;
+.BasicUI
+  .appportrait_LibraryItemBoxSubscript_1LJqx:not(
+    .appportrait_ClassAllAchieved_31wTt
+  ) {
+  right: 5px;
+}
+
+.appportrait_LibraryItemBox_WYgDg.gpfocus
+  ~ .appportrait_LibraryItemBoxSubscript_1LJqx:not(
+    .appportrait_ClassAllAchieved_31wTt
+  ),
+.appportrait_LibraryItemBox_WYgDg:hover
+  ~ .appportrait_LibraryItemBoxSubscript_1LJqx:not(
+    .appportrait_ClassAllAchieved_31wTt
+  ) {
+  transform: translateX(2px) translateY(4px);
 }

@@ -1,3 +1,6 @@
-.BasicUI .appportrait_LibraryItemBoxSubscript_1LJqx {
-    margin-top: -10px;
+.BasicUI
+  .appportrait_LibraryItemBoxSubscript_1LJqx:not(
+    .appportrait_ClassAllAchieved_31wTt
+  ) {
+  bottom: -10px;
 }

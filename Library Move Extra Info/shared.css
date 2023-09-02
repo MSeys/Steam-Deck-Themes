@@ -5,18 +5,15 @@
 }
 
 .BasicUI .appportrait_LibraryItemBoxSubscript_1LJqx {
-    margin-top: -2em;
     border-radius: var(--library-extra-info-radius-size);
     height: 20px;
     font-size: 12px;
     padding-top: 2px !important;
     padding-left: 10px !important;
     padding-right: 10px !important;
-}
-
-.appportrait_LibraryItemBox_WYgDg.gpfocus~.appportrait_LibraryItemBoxSubscript_1LJqx,
-.appportrait_LibraryItemBox_WYgDg:hover~.appportrait_LibraryItemBoxSubscript_1LJqx {
-    transform: translateY(-2px) translateZ(15px);
+    position: absolute;
+    bottom: 5px;
+    transition: transform .1s cubic-bezier(0, 0.7, 0.8, 1);
 }
 
 .appgrid_YourCollection_11p6F {
@@ -27,11 +24,20 @@
 {
     padding: 0px;
     width: 0px;
-    margin-left: 10px !important;
+    left: 5px;
+    bottom: 5px;
     color: transparent;
     background-color: transparent !important;
     box-shadow: none;
 }
+
+.appportrait_LibraryItemBox_WYgDg.gpfocus
+  ~ .appportrait_LibraryItemBoxSubscript_1LJqx.appportrait_ClassAllAchieved_31wTt,
+.appportrait_LibraryItemBox_WYgDg:hover
+  ~ .appportrait_LibraryItemBoxSubscript_1LJqx.appportrait_ClassAllAchieved_31wTt {
+  transform: translateX(-3px) translateY(4px);
+}
+
 
 .appportrait_LibraryItemBoxSubscript_1LJqx.appportrait_MCGreen_1KR40,
 .appportrait_LibraryItemBoxSubscript_1LJqx.appportrait_MCOrange_1H3NR,
