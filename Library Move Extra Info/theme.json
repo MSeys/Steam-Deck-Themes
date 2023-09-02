@@ -67,6 +67,9 @@
         },
         "20px": {
           "--library-extra-info-radius-size": ["20px", "SP"]
+        },
+        "30px": {
+          "--library-extra-info-radius-size": ["30px", "SP"]
         }
       }
     }
