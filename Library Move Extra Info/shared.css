@@ -1,4 +1,5 @@
-.BasicUI .appportrait_LibraryItemBox_WYgDg:focus~.appportrait_LibraryItemBoxSubscript_1LJqx
+.BasicUI .appportrait_LibraryItemBox_WYgDg.gpfocus~.appportrait_LibraryItemBoxSubscript_1LJqx,
+.BasicUI .appportrait_LibraryItemBox_WYgDg:hover~.appportrait_LibraryItemBoxSubscript_1LJqx
 {
     z-index: 13;
 }
@@ -13,7 +14,8 @@
     padding-right: 10px !important;
 }
 
-.appportrait_LibraryItemBox_WYgDg:focus~.appportrait_LibraryItemBoxSubscript_1LJqx {
+.appportrait_LibraryItemBox_WYgDg.gpfocus~.appportrait_LibraryItemBoxSubscript_1LJqx,
+.appportrait_LibraryItemBox_WYgDg:hover~.appportrait_LibraryItemBoxSubscript_1LJqx {
     transform: translateY(-1px) translateZ(15px);
     margin-left: 2px;
 }
@@ -36,4 +38,10 @@
 .appportrait_LibraryItemBoxSubscript_1LJqx.appportrait_MCOrange_1H3NR,
 .appportrait_LibraryItemBoxSubscript_1LJqx.appportrait_MCRed_3lWVD {
     line-height: 16px !important;
+}
+
+.appportrait_LibraryItemBoxSubscript_1LJqx.appportrait_MCGreen_1KR40,
+.appportrait_LibraryItemBoxSubscript_1LJqx.appportrait_MCOrange_1H3NR {
+    color: #0e141b;
+    text-shadow: none;
 }
