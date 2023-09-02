@@ -16,8 +16,7 @@
 
 .appportrait_LibraryItemBox_WYgDg.gpfocus~.appportrait_LibraryItemBoxSubscript_1LJqx,
 .appportrait_LibraryItemBox_WYgDg:hover~.appportrait_LibraryItemBoxSubscript_1LJqx {
-    transform: translateY(-1px) translateZ(15px);
-    margin-left: 2px;
+    transform: translateY(-2px) translateZ(15px);
 }
 
 .appgrid_YourCollection_11p6F {
