@@ -37,12 +37,18 @@
     gap: 25px 16px !important;
 }
 
+.BasicUI .appportrait_LibraryItemBoxSubscript_1LJqx.appportrait_ClassAllAchieved_31wTt,
+.BasicUI .appportrait_LibraryItemBox_WYgDg.Focusable:focus~.appportrait_LibraryItemBoxSubscript_1LJqx.appportrait_ClassAllAchieved_31wTt,
+.BasicUI .appportrait_LibraryItemBox_WYgDg:hover~.appportrait_LibraryItemBoxSubscript_1LJqx.appportrait_ClassAllAchieved_31wTt {
+    left: 10px;
+    right: unset;
+    top: unset;
+    bottom: 3px;
+}
+
 .BasicUI .appportrait_LibraryItemBoxSubscript_1LJqx.appportrait_ClassAllAchieved_31wTt {
     padding: 0px;
     width: 0px;
-    left: 10px;
-    right: unset;
-    bottom: 3px;
     color: transparent;
     background-color: transparent !important;
     box-shadow: none;
@@ -50,7 +56,7 @@
 
 .BasicUI .appportrait_LibraryItemBox_WYgDg.Focusable:focus~.appportrait_LibraryItemBoxSubscript_1LJqx.appportrait_ClassAllAchieved_31wTt,
 .BasicUI .appportrait_LibraryItemBox_WYgDg:hover~.appportrait_LibraryItemBoxSubscript_1LJqx.appportrait_ClassAllAchieved_31wTt {
-    transform: translateX(-3px) translateY(4px);
+    transform: translateX(-3px) translateY(5px);
 }
 
 .appportrait_LibraryItemBoxSubscript_1LJqx.appportrait_MCGreen_1KR40,
