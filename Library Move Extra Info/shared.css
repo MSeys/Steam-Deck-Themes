@@ -1,5 +1,4 @@
-.BasicUI .appportrait_LibraryItemBox_WYgDg.gpfocus~.appportrait_LibraryItemBoxSubscript_1LJqx,
-.BasicUI .appportrait_LibraryItemBox_WYgDg:focus~.appportrait_LibraryItemBoxSubscript_1LJqx,
+.BasicUI .appportrait_LibraryItemBox_WYgDg.Focusable:focus~.appportrait_LibraryItemBoxSubscript_1LJqx,
 .BasicUI .appportrait_LibraryItemBox_WYgDg:hover~.appportrait_LibraryItemBoxSubscript_1LJqx {
     z-index: 13;
 }
@@ -31,8 +30,7 @@
     box-shadow: none;
 }
 
-.BasicUI .appportrait_LibraryItemBox_WYgDg.gpfocus~.appportrait_LibraryItemBoxSubscript_1LJqx.appportrait_ClassAllAchieved_31wTt,
-.BasicUI .appportrait_LibraryItemBox_WYgDg:focus~.appportrait_LibraryItemBoxSubscript_1LJqx.appportrait_ClassAllAchieved_31wTt,
+.BasicUI .appportrait_LibraryItemBox_WYgDg.Focusable:focus~.appportrait_LibraryItemBoxSubscript_1LJqx.appportrait_ClassAllAchieved_31wTt,
 .BasicUI .appportrait_LibraryItemBox_WYgDg:hover~.appportrait_LibraryItemBoxSubscript_1LJqx.appportrait_ClassAllAchieved_31wTt {
     transform: translateX(-3px) translateY(4px);
 }
