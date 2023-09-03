@@ -4,6 +4,7 @@
 }
 
 .appportrait_LibraryItemBox_WYgDg.gpfocus~.appportrait_LibraryItemBoxSubscript_1LJqx,
+.appportrait_LibraryItemBox_WYgDg:focus~.appportrait_LibraryItemBoxSubscript_1LJqx,
 .appportrait_LibraryItemBox_WYgDg:hover~.appportrait_LibraryItemBoxSubscript_1LJqx {
     right: unset;
     transform: translateX(-2px) translateY(4px);
