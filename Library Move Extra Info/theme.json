@@ -14,26 +14,48 @@
       "type": "dropdown",
       "values": {
         "Left": {
-          "horizontal-align/left.css": ["SP"]
+          "--library-extra-info-left": ["5px", "SP"],
+          "--library-extra-info-focus-left": ["5px", "SP"],
+          "--library-extra-info-translate-x": ["-3px", "SP"]
         },
         "Left when highlighted": {
-          "horizontal-align/left-when-highlighted.css": ["SP"]
+          "--library-extra-info-left": ["0px", "SP"],
+          "--library-extra-info-right": ["0px", "SP"],
+          "--library-extra-info-focus-left": ["5px", "SP"],
+          "--library-extra-info-translate-x": ["-3px", "SP"]
         },
         "Center": {
-          "horizontal-align/center.css": ["SP"]
+          "--library-extra-info-left": ["0px", "SP"],
+          "--library-extra-info-right": ["0px", "SP"],
+          "--library-extra-info-focus-left": ["0px", "SP"],
+          "--library-extra-info-focus-right": ["0px", "SP"]
         },
         "Right": {
-          "horizontal-align/right.css": ["SP"]
+          "--library-extra-info-right": ["5px", "SP"],
+          "--library-extra-info-focus-right": ["5px", "SP"],
+          "--library-extra-info-translate-x": ["3px", "SP"]
         }
       }
     },
-    "Align Mid": {
-      "default": "Yes",
-      "type": "checkbox",
+    "Vertical Align": {
+      "default": "Bottom edge",
+      "type": "dropdown",
       "values": {
-        "No": {},
-        "Yes": {
-          "alignmid.css": ["SP"]
+        "Top edge": {
+          "--library-extra-info-top": ["-10px", "SP"],
+          "--library-extra-info-translate-y": ["-5px", "SP"]
+        },
+        "Top": {
+          "--library-extra-info-top": ["5px", "SP"],
+          "--library-extra-info-translate-y": ["-5px", "SP"]
+        },
+        "Bottom": {
+          "--library-extra-info-bottom": ["5px", "SP"],
+          "--library-extra-info-translate-y": ["5px", "SP"]
+        },
+        "Bottom edge": {
+          "--library-extra-info-bottom": ["-10px", "SP"],
+          "--library-extra-info-translate-y": ["5px", "SP"]
         }
       }
     },
@@ -50,27 +72,13 @@
       "default": "10px",
       "type": "slider",
       "values": {
-        "0px": {
-          "--library-extra-info-radius-size": ["0px", "SP"]
-        },
-        "3px": {
-          "--library-extra-info-radius-size": ["3px", "SP"]
-        },
-        "5px": {
-          "--library-extra-info-radius-size": ["5px", "SP"]
-        },
-        "10px": {
-          "--library-extra-info-radius-size": ["10px", "SP"]
-        },
-        "15px": {
-          "--library-extra-info-radius-size": ["15px", "SP"]
-        },
-        "20px": {
-          "--library-extra-info-radius-size": ["20px", "SP"]
-        },
-        "30px": {
-          "--library-extra-info-radius-size": ["30px", "SP"]
-        }
+        "0px": { "--library-extra-info-radius-size": ["0px", "SP"] },
+        "3px": { "--library-extra-info-radius-size": ["3px", "SP"] },
+        "5px": { "--library-extra-info-radius-size": ["5px", "SP"] },
+        "10px": { "--library-extra-info-radius-size": ["10px", "SP"] },
+        "15px": { "--library-extra-info-radius-size": ["15px", "SP"] },
+        "20px": { "--library-extra-info-radius-size": ["20px", "SP"] },
+        "30px": { "--library-extra-info-radius-size": ["30px", "SP"] }
       }
     }
   }

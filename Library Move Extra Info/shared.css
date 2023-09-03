@@ -1,9 +1,19 @@
-.BasicUI .appportrait_LibraryItemBox_WYgDg.Focusable:focus~.appportrait_LibraryItemBoxSubscript_1LJqx,
-.BasicUI .appportrait_LibraryItemBox_WYgDg:hover~.appportrait_LibraryItemBoxSubscript_1LJqx {
-    z-index: 13;
+:root {
+    --library-extra-info-left: unset;
+    --library-extra-info-right: unset;
+    --library-extra-info-top: unset;
+    --library-extra-info-bottom: unset;
+    --library-extra-info-focus-left: unset;
+    --library-extra-info-focus-right: unset;
+    --library-extra-info-translate-x: 0px;
+    --library-extra-info-translate-y: 0px;
 }
 
 .BasicUI .appportrait_LibraryItemBoxSubscript_1LJqx {
+    left: var(--library-extra-info-left);
+    right: var(--library-extra-info-right);
+    top: var(--library-extra-info-top);
+    bottom: var(--library-extra-info-bottom);
     border-radius: var(--library-extra-info-radius-size);
     height: 20px;
     font-size: 12px;
@@ -11,8 +21,16 @@
     padding-left: 10px !important;
     padding-right: 10px !important;
     position: absolute;
-    bottom: 5px;
     transition: transform .1s cubic-bezier(0, 0.7, 0.8, 1);
+    pointer-events: none;
+}
+
+.BasicUI .appportrait_LibraryItemBox_WYgDg.Focusable:focus~.appportrait_LibraryItemBoxSubscript_1LJqx,
+.BasicUI .appportrait_LibraryItemBox_WYgDg:hover~.appportrait_LibraryItemBoxSubscript_1LJqx {
+    z-index: 13;
+    left: var(--library-extra-info-focus-left);
+    right: var(--library-extra-info-focus-right);
+    transform: translateX(var(--library-extra-info-translate-x)) translateY(var(--library-extra-info-translate-y));
 }
 
 .appgrid_YourCollection_11p6F {

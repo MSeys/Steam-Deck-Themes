@@ -1,8 +1,0 @@
-.BasicUI .appportrait_LibraryItemBoxSubscript_1LJqx {
-    right: 5px;
-}
-
-.appportrait_LibraryItemBox_WYgDg.Focusable:focus~.appportrait_LibraryItemBoxSubscript_1LJqx,
-.appportrait_LibraryItemBox_WYgDg:hover~.appportrait_LibraryItemBoxSubscript_1LJqx {
-    transform: translateX(2px) translateY(4px);
-}
