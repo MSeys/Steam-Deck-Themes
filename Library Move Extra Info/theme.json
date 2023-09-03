@@ -6,47 +6,80 @@
   "target": "Library",
   "description": "This is a theme that moves the extra info closer to the banner.",
   "inject": {
-      "shared.css": ["SP", "MainMenu", "QuickAccess"]
+    "shared.css": ["SP"]
   },
   "patches": {
-        "Start With Margin": {
-            "type": "checkbox",
-            "values": {
-                "No": {},
-                "Yes": {
-                    "startmargin.css": ["SP", "MainMenu", "QuickAccess"]
-                }
-            }
+    "Horizontal Align": {
+      "default": "Left when highlighted",
+      "type": "dropdown",
+      "values": {
+        "Left": {
+          "--library-extra-info-left": ["5px", "SP"],
+          "--library-extra-info-focus-left": ["5px", "SP"],
+          "--library-extra-info-translate-x": ["-3px", "SP"]
         },
-        "Align Mid": {
-            "type": "checkbox",
-            "values": {
-                "No": {},
-                "Yes": {
-                    "alignmid.css": ["SP", "MainMenu", "QuickAccess"]
-                }
-            }
+        "Left when highlighted": {
+          "--library-extra-info-left": ["0px", "SP"],
+          "--library-extra-info-right": ["0px", "SP"],
+          "--library-extra-info-focus-left": ["5px", "SP"],
+          "--library-extra-info-translate-x": ["-3px", "SP"]
         },
-        "Use Obsidian": {
-            "type": "checkbox",
-            "values": {
-                "No": {},
-                "Yes": {
-                    "useobsidian.css": ["SP", "MainMenu", "QuickAccess"]
-                }
-            }
+        "Center": {
+          "--library-extra-info-left": ["0px", "SP"],
+          "--library-extra-info-right": ["0px", "SP"],
+          "--library-extra-info-focus-left": ["0px", "SP"],
+          "--library-extra-info-focus-right": ["0px", "SP"]
         },
-        "Roundedness": {
-            "default": "10px",
-            "type": "slider",
-            "values": {
-              "3px": { "roundedness/3px.css": ["SP", "MainMenu", "QuickAccess"] },
-              "5px": { "roundedness/5px.css": ["SP", "MainMenu", "QuickAccess"] },
-              "10px": { "roundedness/10px.css": ["SP", "MainMenu", "QuickAccess"] },
-              "15px": { "roundedness/15px.css": ["SP", "MainMenu", "QuickAccess"] },
-              "20px": { "roundedness/20px.css": ["SP", "MainMenu", "QuickAccess"] },
-              "30px": { "roundedness/30px.css": ["SP", "MainMenu", "QuickAccess"] }
-            }
-          }
+        "Right": {
+          "--library-extra-info-right": ["5px", "SP"],
+          "--library-extra-info-focus-right": ["5px", "SP"],
+          "--library-extra-info-translate-x": ["3px", "SP"]
+        }
+      }
+    },
+    "Vertical Align": {
+      "default": "Bottom edge",
+      "type": "dropdown",
+      "values": {
+        "Top edge": {
+          "--library-extra-info-top": ["-10px", "SP"],
+          "--library-extra-info-translate-y": ["-5px", "SP"]
+        },
+        "Top": {
+          "--library-extra-info-top": ["5px", "SP"],
+          "--library-extra-info-translate-y": ["-5px", "SP"]
+        },
+        "Bottom": {
+          "--library-extra-info-bottom": ["5px", "SP"],
+          "--library-extra-info-translate-y": ["5px", "SP"]
+        },
+        "Bottom edge": {
+          "--library-extra-info-bottom": ["-10px", "SP"],
+          "--library-extra-info-translate-y": ["5px", "SP"]
+        }
+      }
+    },
+    "Use Obsidian": {
+      "type": "checkbox",
+      "values": {
+        "No": {},
+        "Yes": {
+          "useobsidian.css": ["SP"]
+        }
+      }
+    },
+    "Roundedness": {
+      "default": "10px",
+      "type": "slider",
+      "values": {
+        "0px": { "--library-extra-info-radius-size": ["0px", "SP"] },
+        "3px": { "--library-extra-info-radius-size": ["3px", "SP"] },
+        "5px": { "--library-extra-info-radius-size": ["5px", "SP"] },
+        "10px": { "--library-extra-info-radius-size": ["10px", "SP"] },
+        "15px": { "--library-extra-info-radius-size": ["15px", "SP"] },
+        "20px": { "--library-extra-info-radius-size": ["20px", "SP"] },
+        "30px": { "--library-extra-info-radius-size": ["30px", "SP"] }
+      }
+    }
   }
 }
