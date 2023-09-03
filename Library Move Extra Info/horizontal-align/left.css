@@ -1,17 +1,8 @@
-.BasicUI
-  .appportrait_LibraryItemBoxSubscript_1LJqx:not(
-    .appportrait_ClassAllAchieved_31wTt
-  ) {
-  left: 5px;
+.BasicUI .appportrait_LibraryItemBoxSubscript_1LJqx {
+    left: 5px;
 }
 
-.appportrait_LibraryItemBox_WYgDg.gpfocus
-  ~ .appportrait_LibraryItemBoxSubscript_1LJqx:not(
-    .appportrait_ClassAllAchieved_31wTt
-  ),
-.appportrait_LibraryItemBox_WYgDg:hover
-  ~ .appportrait_LibraryItemBoxSubscript_1LJqx:not(
-    .appportrait_ClassAllAchieved_31wTt
-  ) {
-  transform: translateX(-2px) translateY(4px);
+.appportrait_LibraryItemBox_WYgDg.gpfocus~.appportrait_LibraryItemBoxSubscript_1LJqx,
+.appportrait_LibraryItemBox_WYgDg:hover~.appportrait_LibraryItemBoxSubscript_1LJqx {
+    transform: translateX(-2px) translateY(4px);
 }
