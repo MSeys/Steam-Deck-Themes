@@ -6,7 +6,7 @@
   "target": "Library",
   "description": "This is a theme that moves the extra info closer to the banner.",
   "inject": {
-    "shared.css": ["SP", "MainMenu", "QuickAccess"]
+    "shared.css": ["SP"]
   },
   "patches": {
     "Horizontal Align": {
@@ -33,7 +33,7 @@
       "values": {
         "No": {},
         "Yes": {
-          "alignmid.css": ["SP", "MainMenu", "QuickAccess"]
+          "alignmid.css": ["SP"]
         }
       }
     },
@@ -42,7 +42,7 @@
       "values": {
         "No": {},
         "Yes": {
-          "useobsidian.css": ["SP", "MainMenu", "QuickAccess"]
+          "useobsidian.css": ["SP"]
         }
       }
     },
