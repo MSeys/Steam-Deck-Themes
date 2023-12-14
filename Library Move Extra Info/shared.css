@@ -5,8 +5,6 @@
     --library-extra-info-bottom: unset;
     --library-extra-info-focus-left: unset;
     --library-extra-info-focus-right: unset;
-    --library-extra-info-translate-x: 0px;
-    --library-extra-info-translate-y: 0px;
 }
 
 .BasicUI .appportrait_LibraryItemBoxSubscript_1LJqx {
@@ -23,14 +21,14 @@
     position: absolute;
     transition: transform .1s cubic-bezier(0, 0.7, 0.8, 1);
     pointer-events: none;
+    width: fit-content;
 }
 
-.BasicUI .appportrait_LibraryItemBox_WYgDg.Focusable:focus~.appportrait_LibraryItemBoxSubscript_1LJqx,
-.BasicUI .appportrait_LibraryItemBox_WYgDg:hover~.appportrait_LibraryItemBoxSubscript_1LJqx {
+.BasicUI .appportrait_LibraryItemBox_WYgDg.Focusable:focus .appportrait_LibraryItemBoxSubscript_1LJqx,
+.BasicUI .appportrait_LibraryItemBox_WYgDg:hover .appportrait_LibraryItemBoxSubscript_1LJqx {
     z-index: 13;
     left: var(--library-extra-info-focus-left);
     right: var(--library-extra-info-focus-right);
-    transform: translateX(var(--library-extra-info-translate-x)) translateY(var(--library-extra-info-translate-y));
 }
 
 .appgrid_YourCollection_11p6F {
@@ -38,8 +36,8 @@
 }
 
 .BasicUI .appportrait_LibraryItemBoxSubscript_1LJqx.appportrait_ClassAllAchieved_31wTt,
-.BasicUI .appportrait_LibraryItemBox_WYgDg.Focusable:focus~.appportrait_LibraryItemBoxSubscript_1LJqx.appportrait_ClassAllAchieved_31wTt,
-.BasicUI .appportrait_LibraryItemBox_WYgDg:hover~.appportrait_LibraryItemBoxSubscript_1LJqx.appportrait_ClassAllAchieved_31wTt {
+.BasicUI .appportrait_LibraryItemBox_WYgDg.Focusable:focus .appportrait_LibraryItemBoxSubscript_1LJqx.appportrait_ClassAllAchieved_31wTt,
+.BasicUI .appportrait_LibraryItemBox_WYgDg:hover .appportrait_LibraryItemBoxSubscript_1LJqx.appportrait_ClassAllAchieved_31wTt {
     left: 10px;
     right: unset;
     top: unset;
@@ -54,8 +52,8 @@
     box-shadow: none;
 }
 
-.BasicUI .appportrait_LibraryItemBox_WYgDg.Focusable:focus~.appportrait_LibraryItemBoxSubscript_1LJqx.appportrait_ClassAllAchieved_31wTt,
-.BasicUI .appportrait_LibraryItemBox_WYgDg:hover~.appportrait_LibraryItemBoxSubscript_1LJqx.appportrait_ClassAllAchieved_31wTt {
+.BasicUI .appportrait_LibraryItemBox_WYgDg.Focusable:focus .appportrait_LibraryItemBoxSubscript_1LJqx.appportrait_ClassAllAchieved_31wTt,
+.BasicUI .appportrait_LibraryItemBox_WYgDg:hover .appportrait_LibraryItemBoxSubscript_1LJqx.appportrait_ClassAllAchieved_31wTt {
     transform: translateX(-3px) translateY(5px);
 }
 

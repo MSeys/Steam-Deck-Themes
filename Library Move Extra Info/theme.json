@@ -1,7 +1,7 @@
 {
   "name": "Library Move Extra Info",
   "author": "Matthias, RasitAyaz",
-  "version": "v1.4",
+  "version": "v1.5",
   "manifest_version": 5,
   "target": "Library",
   "description": "This is a theme that moves the extra info closer to the banner.",
@@ -15,14 +15,12 @@
       "values": {
         "Left": {
           "--library-extra-info-left": ["5px", "SP"],
-          "--library-extra-info-focus-left": ["5px", "SP"],
-          "--library-extra-info-translate-x": ["-3px", "SP"]
+          "--library-extra-info-focus-left": ["5px", "SP"]
         },
         "Left when highlighted": {
           "--library-extra-info-left": ["0px", "SP"],
           "--library-extra-info-right": ["0px", "SP"],
-          "--library-extra-info-focus-left": ["5px", "SP"],
-          "--library-extra-info-translate-x": ["-3px", "SP"]
+          "--library-extra-info-focus-left": ["5px", "SP"]
         },
         "Center": {
           "--library-extra-info-left": ["0px", "SP"],
@@ -32,8 +30,7 @@
         },
         "Right": {
           "--library-extra-info-right": ["5px", "SP"],
-          "--library-extra-info-focus-right": ["5px", "SP"],
-          "--library-extra-info-translate-x": ["3px", "SP"]
+          "--library-extra-info-focus-right": ["5px", "SP"]
         }
       }
     },
@@ -42,20 +39,16 @@
       "type": "dropdown",
       "values": {
         "Top edge": {
-          "--library-extra-info-top": ["-10px", "SP"],
-          "--library-extra-info-translate-y": ["-5px", "SP"]
+          "--library-extra-info-top": ["-10px", "SP"]
         },
         "Top": {
-          "--library-extra-info-top": ["5px", "SP"],
-          "--library-extra-info-translate-y": ["-5px", "SP"]
+          "--library-extra-info-top": ["5px", "SP"]
         },
         "Bottom": {
-          "--library-extra-info-bottom": ["5px", "SP"],
-          "--library-extra-info-translate-y": ["5px", "SP"]
+          "--library-extra-info-bottom": ["5px", "SP"]
         },
         "Bottom edge": {
-          "--library-extra-info-bottom": ["-10px", "SP"],
-          "--library-extra-info-translate-y": ["5px", "SP"]
+          "--library-extra-info-bottom": ["-10px", "SP"]
         }
       }
     },
